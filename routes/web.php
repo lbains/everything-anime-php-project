@@ -14,7 +14,32 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
+
+Route::get('/shounen', function () {
+    return view('shounen');
+})->name('shounen');
+
+Route::get('/isekai', function () {
+    return view('isekai');
+})->name('isekai');
+
+Route::get('/horror' , function () {
+    return view('horror');
+})->name('horror');
+
+Route::get('/psychological', function () {
+    return view('psychological');
+})->name('psychological');
+
+Route::get('/manga', function () {
+    return view('manga');
+})->name('manga');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+
 
 
