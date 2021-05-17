@@ -13,31 +13,31 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::match(array('GET', 'POST'),'/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/shounen', function () {
+Route::match(array('GET', 'POST'),'/shounen', function () {
     return view('shounen');
 })->name('shounen');
 
-Route::get('/isekai', function () {
+Route::match(array('GET', 'POST'),'/isekai', function () {
     return view('isekai');
 })->name('isekai');
 
-Route::get('/horror' , function () {
+Route::match(array('GET', 'POST'),'/horror' , function () {
     return view('horror');
 })->name('horror');
 
-Route::get('/psychological', function () {
+Route::match(array('GET', 'POST'),'/psychological', function () {
     return view('psychological');
 })->name('psychological');
 
-Route::get('/manga', function () {
+Route::match(array('GET', 'POST'),'/manga', function () {
     return view('manga');
 })->name('manga');
 
-Route::get('/contact', function () {
+Route::match(array('GET', 'POST'),'/contact', function () {
     return view('contact');
 })->name('contact');
 
