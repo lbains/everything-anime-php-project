@@ -13,33 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::match(array('GET', 'POST'),'/', function () {
-    return view('home');
-})->name('home');
+Route::match(array('GET', 'POST'),'/', 'HomeController@home')->name('home');
 
-Route::match(array('GET', 'POST'),'/shounen', function () {
-    return view('shounen');
-})->name('shounen');
+Route::match(array('GET', 'POST'),'/shounen', 'HomeController@shounen')->name('shounen');
 
-Route::match(array('GET', 'POST'),'/isekai', function () {
-    return view('isekai');
-})->name('isekai');
+Route::match(array('GET', 'POST'),'/isekai', 'HomeController@isekai')->name('isekai');
 
-Route::match(array('GET', 'POST'),'/horror' , function () {
-    return view('horror');
-})->name('horror');
+Route::match(array('GET', 'POST'),'/horror' , 'HomeController@horror')->name('horror');
 
-Route::match(array('GET', 'POST'),'/psychological', function () {
-    return view('psychological');
-})->name('psychological');
+Route::match(array('GET', 'POST'),'/psychological', 'HomeController@psychological')->name('psychological');
 
-Route::match(array('GET', 'POST'),'/manga', function () {
-    return view('manga');
-})->name('manga');
+Route::match(array('GET', 'POST'),'/manga', 'HomeController@manga')->name('manga');
 
-Route::match(array('GET', 'POST'),'/contact', function () {
-    return view('contact');
-})->name('contact');
+Route::match(array('GET', 'POST'),'/contact', 'HomeController@contact')->name('contact');
 
 
 
