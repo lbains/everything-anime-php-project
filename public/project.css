@@ -48,7 +48,7 @@ footer {font-size:70%;
 		 clear: both;
        }
 #shounendiv { border-radius:25px;
-			  background-image: url(../images/shounenDivBackground.jpg);
+			  background-image: url(../images/all.jpg);
 			  background-position: center;
 			  background-size: cover;
 			  color: white;
@@ -82,8 +82,7 @@ footer {font-size:70%;
 #mangadiv  { background-image: url(../images/miku.jpg);
             background-position: center;
             color: white;
-            height: 500px;
-            width: 100%;
+    background-size: cover;
             border-radius: 25px;
             padding: 50px;
             margin-bottom:20px;  }
