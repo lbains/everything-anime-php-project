@@ -56,7 +56,7 @@
                             <td align='center'><div id='container'>
                                 <img src='../images/tqq.jpg' alt='The Quintessential Quintuplets' id='image' style='width:100%'>
                                 <div id='middle'>
-                                <a id='text' href='https://myanimelist.net/anime/38101/5-toubun_no_Hanayome?q=the%20quintess&cat=anime'>The Quintessential Quintuplets</a>
+                                <a id='text' href='https://myanimelist.net/anime/38101/5-toubun_no_Hanayome?q=the%20quintess&cat=anime'>Quintuplets</a>
                                 </div>
                                 </div>
                             </td>
@@ -103,7 +103,7 @@
                             <td align='center'><div id='container'>
                                 <img src='../images/vivy.jpg' alt='Vivy: Fluorite Eye&#39s;Song' id='image' style='width:100%'>
                                 <div id='middle'>
-                                <a id='text' href='https://myanimelist.net/anime/46095/Vivy__Fluorite_Eyes_Song'>Vivy: Fluorite Eye&#39s Song</a>
+                                <a id='text' href='https://myanimelist.net/anime/46095/Vivy__Fluorite_Eyes_Song'>Vivy</a>
                                 </div>
                                 </div>
                             </td>
