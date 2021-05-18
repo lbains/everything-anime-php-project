@@ -49,21 +49,21 @@ footer {font-size:70%;
        }
 #shounendiv { border-radius:25px;
 			  background-image: url(../images/shounenDivBackground.jpg);
-			  background-position: center -300px;
+			  background-position: center;
 			  height: 500px;
 			  color: white;
 			  padding: 50px;
 			  margin-bottom: 20px;
 			}
-#isekaidiv { background-image: url(../images/isekaiDivBackground.jpg);
-			 background-position: center -100px;
+#isekaidiv { background-image: url(../images/itsuki.jpg);
+			 background-position: center;
 			 color: white;
 			 border-radius: 25px;
 			 height: 500px;
 			 padding: 50px;
 			 margin-bottom:20px;
 		   }
-#horrordiv { background-image: url(../images/horrorDivBackground.jpg);
+#horrordiv { background-image: url(../images/ichika.jpg);
              background-position: center;
 			 color: white;
 			 height: 500px;
@@ -71,16 +71,16 @@ footer {font-size:70%;
 			 padding: 50px;
 			 margin-bottom:20px;
 		   }
-#psychdiv  { background-image: url(../images/psychDivBackground.png);
-             background-position: center -300px;
+#psychdiv  { background-image: url(../images/yotsuba.jpg);
+             background-position: center;
             color: white;
             height: 500px;
             border-radius: 25px;
             padding: 50px;
             margin-bottom:20px;
            }
-#mangadiv  { background-image: url(../images/wallpaperflare.jpg);
-            background-position: center -200px;
+#mangadiv  { background-image: url(../images/miku.jpg);
+            background-position: center;
             color: white;
             height: 500px;
             width: 100%;
