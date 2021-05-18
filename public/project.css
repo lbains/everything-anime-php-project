@@ -80,7 +80,7 @@ footer {font-size:70%;
             margin-bottom:20px;
            }
 #mangadiv  { background-image: url(../images/wallpaperflare.png);
-            background-position: top -300px;
+            background-position: bottom -300px;
             color: white;
             height: 500px;
             border-radius: 25px;
